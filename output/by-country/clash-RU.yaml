@@ -20,18 +20,18 @@ proxies:
       Host: fbsv6.guardora.pro
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 46.8.200.91
+  server: 104.17.147.22
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: ss
   server: 62.113.41.165
