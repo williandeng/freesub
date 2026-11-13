@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 KZ 01 - xiaohe
+- name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 38.107.234.57
-  port: 8443
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
+  server: 94.247.142.1
+  port: 443
+  uuid: fd62968a-2e97-41ea-9aa0-aa61aed78955
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 3h-kazakhstan1.09vpn.com
+  servername: simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV
   network: ws
   ws-opts:
-    path: /vless/
+    path: /
     headers:
-      Host: 38.107.234.57
+      Host: simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇨🇿 CZ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇨🇿 CZ 01 - xiaohe
 rules:
 - MATCH,PROXIES
